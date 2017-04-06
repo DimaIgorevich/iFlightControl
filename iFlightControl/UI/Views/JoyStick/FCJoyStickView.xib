@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FCJoyStickView">
+            <connections>
+                <outlet property="ivStickBase" destination="S4H-N8-KTE" id="uo5-lg-BV5"/>
+                <outlet property="view" destination="iN0-l3-epB" id="mjS-SX-ssn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stick_base.png" translatesAutoresizingMaskIntoConstraints="NO" id="S4H-N8-KTE">
+                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="S4H-N8-KTE" secondAttribute="trailing" id="A15-PG-92i"/>
+                <constraint firstItem="S4H-N8-KTE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="QAe-qo-7w3"/>
+                <constraint firstAttribute="bottom" secondItem="S4H-N8-KTE" secondAttribute="bottom" id="XRS-Hp-Wao"/>
+                <constraint firstItem="S4H-N8-KTE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bfH-RB-OQ3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="stick_base.png" width="128" height="128"/>
+    </resources>
+</document>

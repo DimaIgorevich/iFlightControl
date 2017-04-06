@@ -1,0 +1,19 @@
+//
+//  FCPrefixHeader.pch
+//  iFlightControl
+//
+//  Created by dRumyankov on 4/6/17.
+//  Copyright © 2017 iFlight. All rights reserved.
+//
+
+#ifndef FCPrefixHeader_pch
+#define FCPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//Constants
+#import "FCStringContants.h"
+#import "FCNumericConstants.h"
+
+#endif /* FCPrefixHeader_pch */
